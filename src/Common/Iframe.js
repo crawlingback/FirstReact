@@ -5,7 +5,7 @@ import React from "react";
 function Iframe({ src }) {
     return (
         <div>
-            <iframe className="Iframe" src={src}></iframe>
+            <iframe title="Ifr" className="Iframe" src={src}></iframe>
         </div>
     );
 }
